@@ -71,4 +71,4 @@ def TTStoMP3(Text  = "Welcome to Fast Hub. \n Record, Translate and Speak. \n I 
 
     response = TTS(Text, voiceType, amplitude, pitch, speed)
     with open( filename + ".mp3", "wb") as file:
-        file.write(response.content())
+        file.write(response.content)
